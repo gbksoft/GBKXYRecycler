@@ -18,7 +18,7 @@ allprojects {
 Add to the app level gradle:
 ```
 dependencies {
-    implementation 'com.github.gbksoft:XYRecycler:v1.0.0'
+    implementation 'com.github.gbksoft:GBKXYRecycler:v1.0.0'
 }
 ```
 
