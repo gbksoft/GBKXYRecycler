@@ -1,0 +1,22 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true">
+
+        <com.gbksoft.debugview.xyrecycler.XYRecycler
+            android:id="@+id/xyRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:column_header_height="40dp"
+            app:row_header_width="80dp"
+            app:divider_color="@android:color/holo_green_dark"
+            app:show_vertical_divider="true"
+            app:show_horizontal_divider="true"/>
+
+    </RelativeLayout>
+
+</layout>

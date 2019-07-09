@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color">@android:color/black</color>
+    <color name="divider_color">@android:color/darker_gray</color>
+
+    <color name="header_divider_color">@android:color/holo_red_light</color>
+
+    <color name="cell_background_color">@android:color/white</color>
+</resources>
